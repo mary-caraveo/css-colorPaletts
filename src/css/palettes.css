@@ -300,3 +300,30 @@
   height: 35px;
   border-radius: 0 0 5px 5px;
 }
+
+.margin-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-main {
+  border: none;
+  border-radius: 5px;
+  margin-top: 12px;
+  width: 80px;
+  height: 35px;
+  outline: none;
+}
+.btn-main:hover {
+  border: 1px solid #dfd3d3;
+  background-color: #d4d4d4;
+  transition: color 0.2s 0.05s ease;
+  transition: background-color 0.2s 0.05s ease;
+  cursor: pointer;
+}
+
+.margin-btn p {
+  color: #838383;
+  text-align: right;
+  margin-top: 20px;
+}
